@@ -3,7 +3,6 @@
 This document describes the datasets used in the project.
 
 ## Dataset Overview
-## Dataset Overview
 
 | Dataset | Rows | Primary Key | Important Columns | Description |
 |---|---:|---|---|---|

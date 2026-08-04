@@ -26,3 +26,10 @@
 - Validated that no missing values or duplicates were introduced.
 - Confirmed financial and marketing metrics remained accurate after transformation.
 - Exported cleaned datasets for SQL import.
+
+## Database Validation
+
+- Cleaned datasets were imported into MySQL.
+- Row counts were verified after import.
+- Missing values, duplicates, and data types were checked again inside the database.
+- The database is ready for business analysis.

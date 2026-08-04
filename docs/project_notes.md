@@ -19,3 +19,10 @@
 - Financial metrics (profit, total_costs, CPC, CPA, and ROAS) were successfully validated.
 - The `order_date` and `month` columns are currently stored as strings and will be converted to the DATE data type during data preparation.
 - Product-level analysis is limited because the `orders` dataset contains product categories rather than individual product IDs.
+
+## Data Preparation
+
+- Converted date columns (`order_date` and `month`) from string to datetime format.
+- Validated that no missing values or duplicates were introduced.
+- Confirmed financial and marketing metrics remained accurate after transformation.
+- Exported cleaned datasets for SQL import.

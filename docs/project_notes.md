@@ -88,3 +88,23 @@ Identify the most and least profitable sales channels and understand the factors
 - Overall channel profitability analysis
 - Channel fee analysis
 - Profitability comparison by sales channel and product category
+
+### Returns Analysis
+
+The third business question was analyzed:
+
+**Goal:**
+Understand customer return behavior and measure the financial impact of returned orders.
+
+### Key Findings:
+
+- Electronics had the highest return rate (8.61%) and the highest refund amount ($4,078.27), making it the category with the largest financial impact from returns.
+- Social Commerce had the highest return rate among sales channels (9.14%), while Website generated the highest total refund amount ($9,383.68) due to its larger order volume.
+- Return performance varies by category and sales channel. For example, Clothing showed a high return rate on Social Commerce (13.33%) and Marketplace (11.67%), indicating potential channel-specific issues.
+
+### Analysis Completed:
+
+- Return rate analysis by product category
+- Return rate analysis by sales channel
+- Refund impact analysis
+- Category and sales channel return comparison

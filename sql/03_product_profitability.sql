@@ -14,9 +14,6 @@ Analysis sections:
 =========================================================
 */
 
-SELECT * 
-FROM orders_staging;
-
 /*
 Business Question 1.1:
 What are the most and least profitable categories?

@@ -61,3 +61,30 @@ Identify the most and least profitable product categories and understand the fac
 - Cost structure analysis
 - Returns impact analysis
 - Pricing efficiency analysis
+
+### Sales Channel Performance Analysis
+
+The second business question was analyzed:
+
+**Goal:**
+Identify the most and least profitable sales channels and understand the factors affecting profitability.
+
+### Key Findings:
+
+- Mobile App is the most profitable sales channel with the highest profit margin (29.76%) and highest average profit per order ($36.32).
+- Marketplace is the least profitable sales channel with the lowest profit margin (13.03%) and lowest average profit per order ($15.40).
+- Website generated the highest number of orders (795) and the highest total revenue ($92,990.55), while maintaining a strong profit margin (27.01%).
+
+### Profitability Drivers:
+
+- Platform and transaction fees were analyzed to understand their impact on channel profitability.
+- Marketplace has the highest average fees per order ($22.94), while Website and Mobile App average approximately $4.00 per order.
+- Profitability was also compared across product categories within each sales channel.
+- Mobile App consistently achieved higher profit margins across most product categories, while Marketplace and Social Commerce generally reported lower margins.
+- Some categories, such as Books, were unprofitable on Marketplace (-6.13%) and Social Commerce (-10.59%).
+
+### Analysis Completed:
+
+- Overall channel profitability analysis
+- Channel fee analysis
+- Profitability comparison by sales channel and product category

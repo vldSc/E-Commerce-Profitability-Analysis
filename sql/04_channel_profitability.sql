@@ -24,7 +24,7 @@ SELECT
     ROUND(SUM(net_revenue),2) AS total_revenue,
     ROUND(SUM(profit),2) AS total_profit,
     ROUND(AVG(profit),2) AS avg_profit_per_order,
-    ROUND((SUM(profit)/SUM(net_revenue))*100,2) AS profit_margin_pct,
+    ROUND((SUM(profit)/SUM(net_revenue))*100.0,2) AS profit_margin_pct,
     ROUND(SUM(platform_fee),2) AS total_platform_fee,
     ROUND(SUM(transaction_fee),2) AS total_transaction_fee
 FROM orders_staging
@@ -56,7 +56,7 @@ SELECT
 	`channel`,
 	primary_category,
     COUNT(*) AS total_orders,
-    ROUND((SUM(profit)/SUM(net_revenue))*100,2) AS profit_margin_pct
+    ROUND((SUM(profit)/SUM(net_revenue))*100.0,2) AS profit_margin_pct
 FROM orders_staging
 GROUP BY `channel`, primary_category
 ORDER BY primary_category ;
@@ -71,7 +71,7 @@ SELECT
 	`channel`,
 	primary_category,
     COUNT(*) AS total_orders,
-    ROUND((SUM(profit)/SUM(net_revenue))*100,2) AS profit_margin_pct
+    ROUND((SUM(profit)/SUM(net_revenue))*100.0,2) AS profit_margin_pct
 FROM orders_staging
 GROUP BY `channel`, primary_category
 ORDER BY `channel`, profit_margin_pct DESC;

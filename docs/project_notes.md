@@ -43,19 +43,19 @@ The first business question was analyzed:
 **Goal:**
 Identify the most and least profitable product categories and understand the factors affecting profitability.
 
-### Key Findings:
+#### Key Findings:
 
 - Electronics is the most profitable category with the highest profit margin (31.13%) and highest average profit per order ($52.34).
 - Books is the least profitable category with the lowest profit margin (11.94%) and lowest average profit per order ($9.41).
 
-### Profitability Drivers:
+#### Profitability Drivers:
 
 - Product costs, shipping costs, discounts, and returns were analyzed to identify the main drivers of profitability differences.
 - Shipping costs were relatively similar across categories and do not appear to be a major factor.
 - Discount levels and return rates also showed limited impact on profitability differences.
 - Pricing efficiency appears to be the main driver, with Electronics achieving the highest profit markup (69.55%) compared with Books (25.12%).
 
-### Analysis Completed:
+#### Analysis Completed:
 
 - Category profitability analysis
 - Cost structure analysis
@@ -69,13 +69,13 @@ The second business question was analyzed:
 **Goal:**
 Identify the most and least profitable sales channels and understand the factors affecting profitability.
 
-### Key Findings:
+#### Key Findings:
 
 - Mobile App is the most profitable sales channel with the highest profit margin (29.76%) and highest average profit per order ($36.32).
 - Marketplace is the least profitable sales channel with the lowest profit margin (13.03%) and lowest average profit per order ($15.40).
 - Website generated the highest number of orders (795) and the highest total revenue ($92,990.55), while maintaining a strong profit margin (27.01%).
 
-### Profitability Drivers:
+#### Profitability Drivers:
 
 - Platform and transaction fees were analyzed to understand their impact on channel profitability.
 - Marketplace has the highest average fees per order ($22.94), while Website and Mobile App average approximately $4.00 per order.
@@ -83,7 +83,7 @@ Identify the most and least profitable sales channels and understand the factors
 - Mobile App consistently achieved higher profit margins across most product categories, while Marketplace and Social Commerce generally reported lower margins.
 - Some categories, such as Books, were unprofitable on Marketplace (-6.13%) and Social Commerce (-10.59%).
 
-### Analysis Completed:
+#### Analysis Completed:
 
 - Overall channel profitability analysis
 - Channel fee analysis
@@ -96,15 +96,38 @@ The third business question was analyzed:
 **Goal:**
 Understand customer return behavior and measure the financial impact of returned orders.
 
-### Key Findings:
+#### Key Findings:
 
 - Electronics had the highest return rate (8.61%) and the highest refund amount ($4,078.27), making it the category with the largest financial impact from returns.
 - Social Commerce had the highest return rate among sales channels (9.14%), while Website generated the highest total refund amount ($9,383.68) due to its larger order volume.
 - Return performance varies by category and sales channel. For example, Clothing showed a high return rate on Social Commerce (13.33%) and Marketplace (11.67%), indicating potential channel-specific issues.
 
-### Analysis Completed:
+#### Analysis Completed:
 
 - Return rate analysis by product category
 - Return rate analysis by sales channel
 - Refund impact analysis
 - Category and sales channel return comparison
+
+### Marketing Performance Analysis
+
+The fourth business question was analyzed:
+
+**Goal:**
+Evaluate advertising platform performance using CPC, CPA, and ROAS and identify the most efficient platforms.
+
+#### Key Findings:
+
+- TikTok Ads is the most efficient platform, with the lowest CPC ($0.15), lowest CPA ($3.06), and highest ROAS (24.02).
+- Influencer generates the highest total attributed revenue ($2.22M), but has a slightly lower ROAS (22.70) than TikTok Ads.
+- Email Marketing has the lowest performance, with the highest CPC ($0.94), highest CPA ($17.86), and lowest ROAS (4.81).
+- All advertising platforms have a ROAS above 1, meaning every platform generated more attributed revenue than advertising spend.
+- TikTok Ads and Influencer improved their ROAS in 2025 compared with 2024, while the other platforms declined.
+
+#### Analysis Completed:
+
+- Overall platform performance analysis
+- CPC and CPA comparison
+- ROAS comparison
+- Conversion rate and revenue per conversion analysis
+- Year-over-year ROAS analysis

@@ -90,8 +90,16 @@ WITH initial_data AS(
 platform_years AS (
 	SELECT 
 		platform,
-    ROUND(SUM(CASE WHEN `year` = 2024 THEN roas ELSE 0 END),2) AS roas_2024,
-	ROUND(SUM(CASE WHEN `year` = 2025 THEN roas ELSE 0 END),2) AS roas_2025
+		ROUND(
+			SUM(CASE WHEN `year` = 2024 THEN revenue ELSE 0 END) /
+			SUM(CASE WHEN `year` = 2024 THEN spend ELSE 0 END),
+			2
+		) AS roas_2024,
+		ROUND(
+			SUM(CASE WHEN `year` = 2025 THEN revenue ELSE 0 END) /
+			SUM(CASE WHEN `year` = 2025 THEN spend ELSE 0 END),
+			2
+		) AS roas_2025
     FROM initial_data
     GROUP BY  platform),
     
@@ -105,3 +113,5 @@ platform_years_label AS (
     SELECT *
     FROM platform_years_label
     ORDER BY roas_2024 DESC;
+    
+    

@@ -164,3 +164,10 @@ Determine how a 20% reduction in the marketing budget could be allocated across 
 - Monthly ROAS performance analysis
 - Monthly budget cut recommendations
 - Partial budget cut allocation for the final month when necessary
+
+#### Final Output Tables
+
+Two final analytical tables were created for Tableau:
+
+- scenario_table_platforms — platform-level budget allocation and proposed 2026 spending.
+- scenario_table_cut_months — monthly budget cuts prioritized by historical ROAS performance.

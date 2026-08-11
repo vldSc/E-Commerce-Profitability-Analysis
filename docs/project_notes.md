@@ -38,7 +38,7 @@
 
 ### Product Profitability Analysis
 
-The first business question was analyzed:
+The 1st business question was analyzed:
 
 **Goal:**
 Identify the most and least profitable product categories and understand the factors affecting profitability.
@@ -64,7 +64,7 @@ Identify the most and least profitable product categories and understand the fac
 
 ### Sales Channel Performance Analysis
 
-The second business question was analyzed:
+The 2nd business question was analyzed:
 
 **Goal:**
 Identify the most and least profitable sales channels and understand the factors affecting profitability.
@@ -91,7 +91,7 @@ Identify the most and least profitable sales channels and understand the factors
 
 ### Returns Analysis
 
-The third business question was analyzed:
+The 3rd business question was analyzed:
 
 **Goal:**
 Understand customer return behavior and measure the financial impact of returned orders.
@@ -111,7 +111,7 @@ Understand customer return behavior and measure the financial impact of returned
 
 ### Marketing Performance Analysis
 
-The fourth business question was analyzed:
+The 4th business question was analyzed:
 
 **Goal:**
 Evaluate advertising platform performance using CPC, CPA, and ROAS and identify the most efficient platforms.
@@ -119,7 +119,7 @@ Evaluate advertising platform performance using CPC, CPA, and ROAS and identify 
 #### Key Findings:
 
 - TikTok Ads is the most efficient platform, with the lowest CPC ($0.15), lowest CPA ($3.06), and highest ROAS (24.02).
-- Influencer generates the highest total attributed revenue ($2.22M), but has a slightly lower ROAS (22.70) than TikTok Ads.
+- Influencer generates the highest total attributed revenue ($2.22M), (22.70) than TikTok Ads.
 - Email Marketing has the lowest performance, with the highest CPC ($0.94), highest CPA ($17.86), and lowest ROAS (4.81).
 - All advertising platforms have a ROAS above 1, meaning every platform generated more attributed revenue than advertising spend.
 - TikTok Ads and Influencer improved their ROAS in 2025 compared with 2024, while the other platforms declined.
@@ -131,3 +131,36 @@ Evaluate advertising platform performance using CPC, CPA, and ROAS and identify 
 - ROAS comparison
 - Conversion rate and revenue per conversion analysis
 - Year-over-year ROAS analysis
+
+### Marketing Budget Optimization
+
+The 5th business question was analyzed:
+
+**Goal:**
+Determine how a 20% reduction in the marketing budget could be allocated across advertising platforms and identify the months where budget cuts should be applied.
+
+#### Scenario Assumptions:
+
+- The 2025 total marketing spend was used as the baseline for the 2026 budget scenario.
+- A 20% reduction of the 2025 marketing budget was assumed.
+- Platform performance was evaluated by comparing ROAS between 2024 and 2025.
+- Platforms with stable or improving ROAS were protected from budget cuts.
+- Larger cuts were assigned to platforms where ROAS declined more significantly.
+- The resulting platform-level cuts were then allocated to the lowest-performing months based on monthly ROAS.
+- When the required reduction was reached partway through a month, only the remaining required amount was recommended as the cut rather than removing the entire month's budget.
+
+#### Platform Cut Strategy:
+
+- No cut: ROAS increased or remained stable.
+- 10% of the optimization amount: ROAS decline between 0 and -1.
+- 20% of the optimization amount: ROAS decline between -1 and -2.
+- 50% of the optimization amount: ROAS decline below -2.
+
+#### Analysis Completed:
+
+- 2024 vs. 2025 platform ROAS comparison
+- 20% marketing budget reduction scenario
+- Platform-level budget allocation
+- Monthly ROAS performance analysis
+- Monthly budget cut recommendations
+- Partial budget cut allocation for the final month when necessary

@@ -84,6 +84,8 @@ WITH initial_data AS(
 	SELECT 
 		platform,
         YEAR(`month`) AS 'year',
+        ROUND(SUM(spend),2) AS spend,
+		ROUND(SUM(revenue_attributed),2) AS revenue,
         ROUND(SUM(revenue_attributed)/SUM(spend),2) AS roas
         FROM marketing_staging
         GROUP BY platform,YEAR(`month`)),

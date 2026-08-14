@@ -1,0 +1,33 @@
+channel,primary_category,total_orders,total_returns,return_rate_pct,total_refund_amount
+Marketplace,Clothing,60,7,11.67,887.77
+Marketplace,"Home & Kitchen",45,3,6.67,842.71
+Marketplace,Electronics,65,5,7.69,639.78
+Marketplace,Toys,48,4,8.33,404.45
+Marketplace,Books,51,4,7.84,403.87
+Marketplace,Sports,52,1,1.92,137.39
+Marketplace,"Food & Beverage",62,1,1.61,98.98
+Marketplace,Beauty,36,2,5.56,78.00
+"Mobile App","Food & Beverage",74,5,6.76,1185.50
+"Mobile App",Toys,75,6,8.00,1068.47
+"Mobile App",Sports,95,9,9.47,720.01
+"Mobile App",Electronics,78,6,7.69,715.54
+"Mobile App",Clothing,69,5,7.25,579.39
+"Mobile App",Books,77,5,6.49,439.45
+"Mobile App","Home & Kitchen",63,3,4.76,343.77
+"Mobile App",Beauty,58,4,6.90,272.04
+"Social Commerce","Home & Kitchen",23,3,13.04,590.55
+"Social Commerce",Books,23,3,13.04,475.14
+"Social Commerce",Clothing,30,4,13.33,376.95
+"Social Commerce","Food & Beverage",24,3,12.50,354.85
+"Social Commerce",Electronics,23,2,8.70,345.34
+"Social Commerce",Toys,23,1,4.35,204.54
+"Social Commerce",Beauty,27,1,3.70,22.46
+"Social Commerce",Sports,24,1,4.17,11.82
+Website,Electronics,101,10,9.90,2377.61
+Website,"Food & Beverage",87,5,5.75,1865.23
+Website,Clothing,134,8,5.97,1365.10
+Website,Sports,121,10,8.26,1139.22
+Website,Toys,111,7,6.31,792.35
+Website,Books,88,8,9.09,787.90
+Website,"Home & Kitchen",69,3,4.35,563.07
+Website,Beauty,84,5,5.95,493.20

@@ -1,0 +1,7 @@
+platform,total_spend,total_revenue_attributed,total_conversion,conversions_rate_pct,revenue_per_conversion,cpc,label_cpc,cpa,label_cpa,roas,label_roas
+"TikTok Ads",57229.22,1374627.17,18684,4.87,73.57,0.15,"Best CPC",3.06,"Best CPA",24.02,"Best roas"
+Influencer,97663.12,2216974.26,28824,4.91,76.91,0.17,Other,3.39,Other,22.70,Other
+"Instagram Ads",65154.02,1024639.06,13863,4.52,73.91,0.21,Other,4.70,Other,15.73,Other
+"Google Ads",152546.48,2194120.83,32309,5.28,67.91,0.25,Other,4.72,Other,14.38,Other
+"Facebook Ads",106451.93,1218572.43,16968,5.11,71.82,0.32,Other,6.27,Other,11.45,Other
+"Email Marketing",24461.37,117681.45,1370,5.28,85.90,0.94,"Worst CPC",17.86,"Worst CPA",4.81,"Worst roas"

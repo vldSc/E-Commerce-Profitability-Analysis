@@ -1,0 +1,5 @@
+channel,total_orders,total_revenue,total_profit,avg_profit_per_order,profit_margin_pct,total_platform_fee,total_transaction_fee
+"Mobile App",589,71893.39,21393.30,36.32,29.76,0.00,2415.99
+Website,795,92990.55,25118.46,31.60,27.01,0.00,3207.37
+"Social Commerce",197,21929.37,3370.54,17.11,15.37,1944.93,764.12
+Marketplace,419,49505.06,6451.53,15.40,13.03,7949.69,1662.63

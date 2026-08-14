@@ -1,0 +1,33 @@
+channel,primary_category,total_orders,profit_margin_pct
+Website,Beauty,84,19.88
+"Social Commerce",Beauty,27,13.94
+"Mobile App",Beauty,58,22.11
+Marketplace,Beauty,36,6.82
+Marketplace,Books,51,-6.13
+"Social Commerce",Books,23,-10.59
+Website,Books,88,14.54
+"Mobile App",Books,77,22.96
+Marketplace,Clothing,60,1.21
+"Social Commerce",Clothing,30,13.90
+Website,Clothing,134,23.53
+"Mobile App",Clothing,69,28.26
+"Mobile App",Electronics,78,41.73
+Website,Electronics,101,30.96
+Marketplace,Electronics,65,23.01
+"Social Commerce",Electronics,23,16.39
+Website,"Food & Beverage",87,31.36
+"Mobile App","Food & Beverage",74,26.38
+Marketplace,"Food & Beverage",62,13.13
+"Social Commerce","Food & Beverage",24,17.89
+"Social Commerce","Home & Kitchen",23,13.15
+Marketplace,"Home & Kitchen",45,15.53
+Website,"Home & Kitchen",69,27.37
+"Mobile App","Home & Kitchen",63,35.66
+"Mobile App",Sports,95,22.76
+Marketplace,Sports,52,12.23
+Website,Sports,121,28.11
+"Social Commerce",Sports,24,22.56
+Website,Toys,111,30.88
+"Mobile App",Toys,75,27.52
+Marketplace,Toys,48,15.17
+"Social Commerce",Toys,23,24.42

@@ -171,3 +171,21 @@ Two final analytical tables were created for Tableau:
 
 - scenario_table_platforms — platform-level budget allocation and proposed 2026 spending.
 - scenario_table_cut_months — monthly budget cuts prioritized by historical ROAS performance.
+
+## Visualization
+
+The analysis was visualized in Tableau using six dashboards:
+
+1. Executive Summary
+2. Product Profitability
+3. Channel Profitability
+4. Returns Analysis
+5. Marketing Performance
+6. Marketing Budget Optimization
+
+The dashboards were designed to communicate the main business findings,
+profitability drivers, return patterns, marketing performance, and the
+20% marketing budget optimization scenario.
+
+The final Tableau workbook is available in the `tableau/` directory.
+Dashboard screenshots are available in the `images/` directory.

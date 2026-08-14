@@ -86,11 +86,12 @@ SET t1.roas_2024 = t2.roas_2024;
 UPDATE scenario_table_platforms
 SET difference = ROUND(roas_2025 - roas_2024, 2);
 
-UPDATE scenario_table_platforms
-SET cut_optimization =  (  
-	SELECT ROUND(SUM(spend_2025) * 0.20, 2)
+UPDATE scenario_table_platforms s
+CROSS JOIN (
+    SELECT ROUND(SUM(spend_2025) * 0.20, 2) AS total_cut
     FROM historical_tabel_2025
-);
+) h
+SET s.cutoptimization = h.total_cut;
 
 
 UPDATE scenario_table_platforms
